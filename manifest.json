@@ -4,7 +4,7 @@
     "name": "FreeMP3Download.net Search",
     "short_name": "FreeMP3 Search",
     "description": "Adds an option to search on Free-MP3-Download.net. Was developed to fix encoding problem when ?q= parameter is passed to site.",
-    "version": "1.0",
+    "version": "1.0.1",
 
     "browser_specific_settings":
     {
