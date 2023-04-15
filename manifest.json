@@ -1,5 +1,5 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
 
     "name": "FreeMP3Download.net Search",
     "short_name": "FreeMP3 Search",
@@ -10,7 +10,7 @@
     {
         "gecko":
         {
-            "strict_min_version": "55"
+            "strict_min_version": "55.0"
         }
     },
 
@@ -21,7 +21,7 @@
             "name": "FreeMP3Download.net",
             "search_url": "https://www.free-mp3-download.net/?search={searchTerms}",
             "keyword": "freemp3",
-            "favicon_url": "./assets/search/icon_512.png",
+            "favicon_url": "https://free-mp3-download.net/img/icon_512.png",
             "is_default": false,
             "encoding": "UTF-8"
         }
@@ -46,13 +46,13 @@
 
     "icons":
     {
-        "32": "./assets/extension/icon_32.png",
-        "48": "./assets/extension/icon_48.png",
-        "64": "./assets/extension/icon_64.png",
-        "96": "./assets/extension/icon_96.png",
-        "128": "./assets/extension/icon_128.png",
-        "256": "./assets/extension/icon_256.png",
-        "512": "./assets/extension/icon_512.png"
+        "32": "./assets/icon_32.png",
+        "48": "./assets/icon_48.png",
+        "64": "./assets/icon_64.png",
+        "96": "./assets/icon_96.png",
+        "128": "./assets/icon_128.png",
+        "256": "./assets/icon_256.png",
+        "512": "./assets/icon_512.png"
     },
 
     "author": "moony aka Danila Kononov",
