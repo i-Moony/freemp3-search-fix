@@ -3,14 +3,14 @@
 
     "name": "FreeMP3Download.net Search",
     "short_name": "FreeMP3 Search",
-    "description": "Adds an option to search on FreeMP3Download.net. Was developed to fix encoding problem when ?q= parameter is passed to site.",
+    "description": "Adds an option to search on Free-MP3-Download.net. Was developed to fix encoding problem when ?q= parameter is passed to site.",
     "version": "1.0",
 
     "browser_specific_settings":
     {
         "gecko":
         {
-            "strict_min_version": "55.0"
+            "strict_min_version": "65.0"
         }
     },
 
@@ -18,7 +18,7 @@
     {
         "search_provider":
         {
-            "name": "FreeMP3Download.net",
+            "name": "Free-MP3-Download.net",
             "search_url": "https://www.free-mp3-download.net/?search={searchTerms}",
             "keyword": "freemp3",
             "favicon_url": "https://free-mp3-download.net/img/icon_512.png",
